@@ -13,3 +13,10 @@ Messages.before.insert(function (userId, doc) {
     doc.userName = 'Anonymous';
   }
 });
+
+
+Messages.allow({
+  insert: function (userId, doc) {
+    return true;
+  }
+});

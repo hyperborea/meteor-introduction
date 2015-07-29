@@ -1,5 +1,6 @@
 Template.graph.onCreated(function() {
   Session.setDefault('chartType', 'line');
+  this.subscribe('graphData');
 });
 
 

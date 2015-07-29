@@ -1,3 +1,8 @@
+Template.chat.onCreated(function () {
+  this.subscribe('messages');
+});
+
+
 Template.chat.events({
   'submit form': function (event, template) {
     event.preventDefault();
