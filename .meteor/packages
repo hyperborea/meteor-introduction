@@ -8,5 +8,8 @@ meteor-platform
 autopublish
 insecure
 accounts-password
-accounts-ui
 matb33:collection-hooks
+semantic:ui-css
+iandouglas:accounts-ui-semantic-ui
+kadira:flow-router
+meteorhacks:flow-layout

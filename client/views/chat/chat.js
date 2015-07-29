@@ -1,4 +1,4 @@
-Template.main.events({
+Template.chat.events({
   'submit form': function (event, template) {
     event.preventDefault();
 
@@ -14,7 +14,7 @@ Template.main.events({
 });
 
 
-Template.main.helpers({
+Template.chat.helpers({
   messages: function () {
     return Messages.find();
   }

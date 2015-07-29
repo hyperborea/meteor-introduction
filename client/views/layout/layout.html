@@ -1,0 +1,14 @@
+<template name="layout">
+  <div class="ui fixed inverted menu">
+    <a href="/chat" class="item">Chat</a>
+    <a href="/graph" class="item">Graph</a>
+
+    <div class="right menu">
+      {{> loginButtons}}  
+    </div>
+  </div>
+
+  <div class="ui main container">
+    {{> Template.dynamic template=main}}
+  </div>
+</template>

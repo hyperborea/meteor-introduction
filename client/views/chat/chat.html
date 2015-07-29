@@ -1,0 +1,13 @@
+<template name="chat">
+  <form class="ui form">
+    <input type="text" placeholder="Type here..." autofocus>  
+  </form>
+
+  <div class="ui list">
+    {{#each messages}}
+      <div class="item">
+        <b>[{{userName}}]</b> {{content}}
+      </div>
+    {{/each}}
+  </div>
+</template>
