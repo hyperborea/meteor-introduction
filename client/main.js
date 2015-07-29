@@ -1,5 +1,5 @@
 Template.main.events({
-  'submit form': function(event, template) {
+  'submit form': function (event, template) {
     event.preventDefault();
 
     var input = template.find('input');
@@ -15,7 +15,7 @@ Template.main.events({
 
 
 Template.main.helpers({
-  messages: function() {
+  messages: function () {
     return Messages.find();
   }
 });

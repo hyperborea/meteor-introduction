@@ -3,6 +3,8 @@
 </head>
 
 <body>
+  {{> loginButtons}}  
+
   {{> main}}
 </body>
 
@@ -14,7 +16,7 @@
 
   <ul>
     {{#each messages}}
-      <li>{{content}}</li>
+      <li><b>[{{userName}}]</b> {{content}}</li>
     {{/each}}
   </ul>
 </template>
